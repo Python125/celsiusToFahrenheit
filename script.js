@@ -1,6 +1,4 @@
-function convertToF(celsius) {
-  let fahrenheit = (celsius*1.8)+32;
-  return fahrenheit;
-};
-
-console.log(convertToF(0));
+function temperatureConverter(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputFahrenheit").innerHTML = (valNum*1.8) + 32;
+}
